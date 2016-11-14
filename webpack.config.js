@@ -2,7 +2,7 @@ var webpack = require('webpack')
 
 module.exports = {
   entry: [
-    './main.jsx'
+    './js/packages.js'
   ],
   output: {
     path: './js',
@@ -10,10 +10,10 @@ module.exports = {
   },
   module: {
     loaders: [
-      {     
-        test : /\.jsx?/,
-        loader : 'babel?presets[]=es2015&presets[]=react'
-      }
+      // {     
+      //   test : /\.jsx?/,
+      //   loader : 'babel?presets[]=es2015&presets[]=react'
+      // }
     ]
   }
 };
